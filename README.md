@@ -42,6 +42,10 @@ Clone the repository. Navigate to the directory and execute below command in ter
 
 Yup. That easy!! :)
 
+### How to use?
+
+After running the above stated command in terminal, you can open your Xcode project, go to file menu, select New -> File -> ( command N for shortcut), scroll down all the way to the bottom and you will see the Viper Module Template. Please select the template and name it as your wish, you can also choose to implement storyboard for your module if you like. 
+
 
 ### How to uninstall?
 
