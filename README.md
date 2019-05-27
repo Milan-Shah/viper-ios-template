@@ -44,7 +44,10 @@ Yup. That easy!! :)
 
 ### How to use?
 
-After running the above stated command in terminal, you can open your Xcode project, go to file menu, select New -> File -> ( command N for shortcut), scroll down all the way to the bottom and you will see the Viper Module Template. Please select the template and name it as your wish, you can also choose to implement storyboard for your module if you like. 
+>  Make sure to import common helper files in your project. You can find them under Helper Files folder of the directory.
+
+After running the install command in terminal, make sure you have imported files from Helper Files folder in your project. Now, you can open your Xcode project, go to file menu, select New -> File -> ( command N for shortcut), scroll down all the way to the bottom and you will see the Viper Module Template. Please select the template and name it as your wish, you can also choose to implement storyboard for your module if you like. 
+
 
 
 ### How to uninstall?

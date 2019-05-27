@@ -11,14 +11,10 @@ import UIKit
 
 final class ___VARIABLE_moduleName___Wireframe: BaseWireframe {
 
-    // MARK: - Private properties -
-
-    private let storyboard = UIStoryboard(name: <#Storyboard name#>, bundle: nil)
-
     // MARK: - Module setup -
 
     init() {
-        let moduleViewController = storyboard.instantiateViewController(ofType: ___VARIABLE_moduleName___ViewController.self)
+        let moduleViewController = ___VARIABLE_moduleName___ViewController()
         super.init(view: moduleViewController)
         
         let interactor = ___VARIABLE_moduleName___Interactor()
