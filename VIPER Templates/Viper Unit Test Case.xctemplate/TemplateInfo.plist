@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Creates a Quick and Nimble Test Case for VIPER module.</string>
+	<key>Summary</key>
+	<string>Creates a Quick and Nimble Test Case for VIPER module.</string>
+	<key>BuildableType</key>
+	<string>Test</string>
+	<key>DefaultCompletionName</key>
+	<string>Tests</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___Tests.swift</string>
+</dict>
+</plist>

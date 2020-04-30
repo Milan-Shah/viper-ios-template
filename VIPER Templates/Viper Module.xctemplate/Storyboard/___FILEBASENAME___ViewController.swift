@@ -9,6 +9,9 @@
 
 import UIKit
 
+struct ___VARIABLE_moduleName___AccesibilityIdentifiers {
+}
+
 final class ___VARIABLE_moduleName___ViewController: UIViewController {
 
     // MARK: - Public properties -

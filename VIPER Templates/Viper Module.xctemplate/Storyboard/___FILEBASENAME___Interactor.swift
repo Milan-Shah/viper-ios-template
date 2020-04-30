@@ -10,7 +10,7 @@
 import Foundation
 
 final class ___VARIABLE_moduleName___Interactor {
-    var presenter: ___VARIABLE_moduleName___Presenter!
+    weak var presenter: ___VARIABLE_moduleName___Presenter!
 }
 
 // MARK: - Extensions -

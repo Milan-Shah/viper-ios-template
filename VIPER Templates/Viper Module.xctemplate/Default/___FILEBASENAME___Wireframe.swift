@@ -11,18 +11,6 @@ import UIKit
 
 final class ___VARIABLE_moduleName___Wireframe: BaseWireframe {
 
-    // MARK: - Module setup -
-
-    init() {
-        let moduleViewController = ___VARIABLE_moduleName___ViewController()
-        super.init(view: moduleViewController)
-        
-        let interactor = ___VARIABLE_moduleName___Interactor()
-        let presenter = ___VARIABLE_moduleName___Presenter(wireframe: self, view: moduleViewController, interactor: interactor)
-        moduleViewController.presenter = presenter
-        interactor.presenter = presenter
-    }
-
 }
 
 // MARK: - Extensions -

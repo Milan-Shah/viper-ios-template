@@ -44,10 +44,7 @@ Yup. That easy!! :)
 
 ### How to use?
 
->  Make sure to import common helper files in your project. You can find them under Helper Files folder of the directory.
-
-After running the install command in terminal, make sure you have imported files from Helper Files folder in your project. Now, you can open your Xcode project, go to file menu, select New -> File -> ( command N for shortcut), scroll down all the way to the bottom and you will see the Viper Module Template. Please select the template and name it as your wish, you can also choose to implement storyboard for your module if you like. 
-
+After running the install command in terminal, you **MUST intialize Viper Initialize template first**. It has a base interface file that contains protocols for creating modules for your screens. To do so, you can open your Xcode project, go to file menu, select New -> File -> ( command N for shortcut), scroll down all the way to the bottom and you will see the Viper Initialize, Viper Module and Viper Unit Test Case templates. You can select the template and name it as you wish, you can also choose to implement storyboard for your modules if you like. 
 
 
 ### How to uninstall?
@@ -63,3 +60,7 @@ Haha :D Yup. That's easy too!!
 
 * https://medium.com/ios-os-x-development/ios-architecture-patterns-ecba4c38de52
 * https://www.objc.io/issues/13-architecture/viper/
+
+## Future TO DOs: 
+
+* Add Swift UI Viper Template

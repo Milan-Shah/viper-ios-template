@@ -1,18 +1,14 @@
 //
-//  WireframeInterface.swift
-//  Weather
+//  ___FILENAME___
+//  ___PROJECTNAME___
 //
-//  Created by Milan Shah on 5/27/19.
-//  Copyright © 2019 Milan Shah. All rights reserved.
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 //
+//
+
 
 import UIKit
-
-protocol WireframeInterface {
-    
-    func popFromNavigationController(animated: Bool)
-    func dismiss(animated: Bool)
-}
 
 class BaseWireframe {
     
@@ -52,4 +48,22 @@ extension UINavigationController {
     func setRootWireframe(_ wireframe: BaseWireframe, animated: Bool = true) {
         self.setViewControllers([wireframe.viewController], animated: animated)
     }
+}
+
+protocol InteractorInterface {
+    
+}
+
+protocol PresenterInterface {
+
+}
+
+protocol ViewInterface {
+
+}
+
+protocol WireframeInterface {
+    
+    func popFromNavigationController(animated: Bool)
+    func dismiss(animated: Bool)
 }
