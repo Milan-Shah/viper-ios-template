@@ -42,6 +42,8 @@ Clone the repository. Navigate to the directory and execute below command in ter
 
 Yup. That easy!! :)
 
+![](/Images/select_template_screenshot.jpg "VIPER Templates")
+
 ### How to use?
 
 After running the install command in terminal, you **MUST intialize Viper Initialize template first**. It has a base interface file that contains protocols for creating modules for your screens. To do so, you can open your Xcode project, go to file menu, select New -> File -> ( command N for shortcut), scroll down all the way to the bottom and you will see the Viper Initialize, Viper Module and Viper Unit Test Case templates. You can select the template and name it as you wish, you can also choose to implement storyboard for your modules if you like. 
