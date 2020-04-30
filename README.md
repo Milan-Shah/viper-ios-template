@@ -38,7 +38,7 @@ One of the headache Viper architecture brings, is having to write a lot of boile
 ### How to install?
 
 Clone the repository. Navigate to the directory and execute below command in terminal:
->  make install_viper_template
+>  make install_viper
 
 Yup. That easy!! :)
 
@@ -50,7 +50,7 @@ After running the install command in terminal, you **MUST intialize Viper Initia
 ### How to uninstall?
 
 Navigate to the directory and execute below command in terminal:
->  make uninstall_viper_template
+>  make uninstall_viper
 
 
 Haha :D Yup. That's easy too!!
@@ -63,4 +63,5 @@ Haha :D Yup. That's easy too!!
 
 ## Future TO DOs: 
 
+* Add XCTest Unit Test Case Viper Template
 * Add Swift UI Viper Template
