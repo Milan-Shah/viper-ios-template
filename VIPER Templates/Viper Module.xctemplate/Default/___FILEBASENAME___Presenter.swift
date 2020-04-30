@@ -13,7 +13,7 @@ final class ___VARIABLE_moduleName___Presenter {
     // MARK: - Private properties -
 
     private let wireframeInterface: ___VARIABLE_moduleName___WireframeInterface
-    private unowned let viewInterface: ___VARIABLE_moduleName___ViewInterface
+    private let viewInterface: ___VARIABLE_moduleName___ViewInterface
     private let interactorInterface: ___VARIABLE_moduleName___InteractorInterface
 
     // MARK: - Lifecycle -
